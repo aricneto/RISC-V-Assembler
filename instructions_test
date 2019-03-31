@@ -1,0 +1,52 @@
+LUI x11,54
+AUIPC x11,41
+JAL x11,41
+JALR x11, x5,41
+BEQ x5,x4,41
+BNE x5,x4,41
+BLT x5,x4,41
+BGE x5,x4,41
+BLTU x5,x4,41
+BGEU x5,x4,41
+LB x11,41( x5)
+LH x11,41( x5)
+LW x11,41( x5)
+LBU x11,41( x5)
+LHU x11,41( x5)
+SB x4,41(x5 )
+SH x4,41( x5)
+SW x4,41( x5)
+ADDI x11, x5, 54
+SLTI x11, x5,54
+SLTIU x11 , x5 , 54
+XORI x11, x5,54
+ORI x11, x5,54
+ANDI x11, x5,54
+SLLI x11, x5,54
+SRLI x11, x5,54
+SRAI x11, x5,54
+ADD x11,x5,x4
+SUB x11, x5,x4
+SLL x11,x5,x4
+SLT x11, x5,x4
+SLTU x11, x5,x4
+XOR x11,x5,x4
+SRL x11, x5,x4
+SRA x11, x5,x4
+OR x11, x5,x4
+AND x11, x5,x4
+LWU x11,41( x5)
+LD x11,41( x5)
+SD x4,41( x5)
+SLLI x11, x5,54
+SRLI x11, x5,54
+SRAI x11, x5,54
+ADDIW x11, x5,54
+SLLIW x11, x5,54
+SRLIW x11, x5,54
+SRAIW x11, x5,54
+ADDW x11, x5,x4
+SUBW x11, x5,x4
+SLLW x11, x5,x4
+SRLW x11, x5,x4
+SRAW x11, x5,x4
